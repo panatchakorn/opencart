@@ -3,15 +3,19 @@
 ## Description
 This is a web UI automation test using Cypress automation framework and Cucumber plugin. Cypress supports Chrome, Firefox, Edge, Electron and Brave browsers.
 
-More info:
-| [<img src="/image/cypress.JPG" alt="Cypress logo" style="height: 100px; width:100px;"/>](https://cypress.io/)      | [<img src="/image/cucumber.JPG" alt="Cucumber logo" style="height: 100px; width:100px;"/>](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)       |
+For More info:
+
+ [<img src="/image/cypress.JPG" alt="Cypress logo" style="height: 100px; width:100px;"/>](https://cypress.io/)      
+ [<img src="/image/cucumber.JPG" alt="Cucumber logo" style="height: 100px; width:100px;"/>](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
 ## Pre-requisites
-- Git [Git Downloads](https://git-scm.com/downloads)
-- NodeJS needs to be installed on the system. Recommend version 12 or 14 or above. Check if this is installed by running the command in terminal  `node --version`
-- NPM needs to be installed on the system. Check if this is installed by running the command `npm --version`
-- Refer [NodeJS Downloads](https://nodejs.org/en/download/) to download LTS .msi installer and install NodeJS for your system if you don't have it installed already. The installer will also install npm.
-- Visual Studio Code needs to be installed. Visit [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
+Please download and install these softwares if you don't have them already.
+
+- [Git Downloads and install](https://git-scm.com/downloads)
+- NodeJS. Recommend version 12 or 14 or above. Check if this is installed by running the command in terminal  `node --version`
+- NPM. Check if this is installed by running the command `npm --version`
+- [NodeJS Downloads and install](https://nodejs.org/en/download/). Download LTS .msi installer and install NodeJS for your system. The installer will also install npm.
+- [Visual Studio Code Downloads and install](https://code.visualstudio.com/download)
 - Open Visual Studio Code and Install extension : Cucumber (Gherkin) Full Support by Alexander Krechik. This will make feature files more readable.
 
 
