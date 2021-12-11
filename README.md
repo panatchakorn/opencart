@@ -45,7 +45,7 @@ npm run cy:run:demo
 ```
 
 ## Additional Comments
-I'm using Windows10, Chrome and Edge during implmentation of this test suite. I'm currently using Cypress in my current role however this is my first time trying Cucumber in Cypress :grin: \
+I'm using Windows10, Chrome and Edge during implmentation of this test suite. I'm currently using Cypress in my current role however this is my first time trying Cucumber in Cypress :grin: 
 
 I'm using datatable to keep the user details more readable in the feature file. It's not meant to be for adding more user details for multiple test iterations. 
 
