@@ -5,8 +5,7 @@ This is a web UI automation test using Cypress automation framework and Cucumber
 
 For More info:
 
- [<img src="/image/cypress.JPG" alt="Cypress logo" style="height: 100px; width:100px;"/>](https://cypress.io/)      
- [<img src="/image/cucumber.JPG" alt="Cucumber logo" style="height: 100px; width:100px;"/>](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
+ [<img src="/image/cypress.JPG" alt="Cypress logo" style="height: 100px; width:100px;"/>](https://cypress.io/) [<img src="/image/cucumber.JPG" alt="Cucumber logo" style="height: 100px; width:100px;"/>](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)
 
 ## Pre-requisites
 Please download and install these softwares if you don't have them already.
