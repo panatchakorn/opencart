@@ -4,25 +4,27 @@
 This is a web UI automation test using Cypress automation framework and Cucumber plugin. Cypress supports Chrome, Firefox, Edge, Electron and Brave browsers.
 
 More info:
-- [Visit Cypress](https://cypress.io/)
-- [Visit Cucumber Plugin](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor).
+| [<img src="/image/cypress.JPG" alt="Cypress logo" style="height: 100px; width:100px;"/>](https://cypress.io/)      | [<img src="/image/cucumber.JPG" alt="Cucumber logo" style="height: 100px; width:100px;"/>](https://github.com/TheBrainFamily/cypress-cucumber-preprocessor)       |
 
 ## Pre-requisites
-- NodeJS needs to be installed on the system. Recommend version 12 or 14 or above. Check if this is installed by running the command `node --version`
+- Git [Git Downloads](https://git-scm.com/downloads)
+- NodeJS needs to be installed on the system. Recommend version 12 or 14 or above. Check if this is installed by running the command in terminal  `node --version`
 - NPM needs to be installed on the system. Check if this is installed by running the command `npm --version`
 - Refer [NodeJS Downloads](https://nodejs.org/en/download/) to download LTS .msi installer and install NodeJS for your system if you don't have it installed already. The installer will also install npm.
 - Visual Studio Code needs to be installed. Visit [https://code.visualstudio.com/download](https://code.visualstudio.com/download).
-- Install Visual Studio Code extension : Cucumber (Gherkin) Full Support by Alexander Krechik. This will make feature files more readable.
+- Open Visual Studio Code and Install extension : Cucumber (Gherkin) Full Support by Alexander Krechik. This will make feature files more readable.
 
-## Install Dependencies (including Cypress and cucumber) 
+
+## Clone repo and Install Dependencies (including Cypress and cucumber) 
+- Clone/Download repo and open it in Visual Studio Code
 - In terminal go to project root folder ./opencart and run command
 ```
 npm install
 ```
 
 ## Configuration
-- To update test environment url, go to ./cypress/support/hostconfig.js
-- To add more command for running the test, go to scripts properties in package.json 
+- Test environment url configured in ./cypress/support/hostconfig.js
+- Custom command to run test configured in package.json 
 
 ## Running the Tests
 
@@ -30,12 +32,14 @@ npm install
 
 - Opening Cypress UI
 
--- Run below command to open Cypress UI. From Cypress UI , select browser and click on Integration Tests\feature to run the test.\
+-- Run below command to open Cypress UI. From Cypress UI , select browser and click on Integration Tests/feature to run the test.\
 -- Click stop button to stop the test\
 -- After each test, screenshot can be found in ./cypress/screenshot folder. 
 ```
 npm run cy:open:demo
 ```
+<img src="/image/cypressui.JPG" alt="Cypress UI"/>
+
 - Running from CLI
 
 -- Run below command to run tests in headless mode. It will record a video for each feature file, which can be located in ./cypress/videos. If there is a failure, it will capture a screenshot in ./cypress/screenshot/.
@@ -43,6 +47,7 @@ npm run cy:open:demo
 ```
 npm run cy:run:demo
 ```
+<img src="/image/cypresscli.JPG" alt="Cypress CLI"/>
 
 ## Additional Comments
 I'm using Windows10, Chrome and Edge during implmentation of this test suite. I'm currently using Cypress in my current role however this is my first time trying Cucumber in Cypress :grin: 
