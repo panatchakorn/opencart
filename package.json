@@ -1,0 +1,26 @@
+{
+  "name": "opencart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:open:demo" : "cypress open --env ENV=demo",
+    "cy:run:demo" : "cypress run --env ENV=demo",
+    "cy:run:demo:focus" : "cypress-tags run -e TAGS='@FirstTest OR @focus'",
+    "cy:open:demo:focus" : "cypress-tags open -e TAGS='@FirstTest OR @focus'"
+       
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.1.1"
+  },
+  "devDependencies": {
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/integration"
+  }
+}

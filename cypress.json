@@ -1,0 +1,4 @@
+{
+    "baseUrl": "http://104.42.251.168",    
+    "testFiles": "**/*.feature"
+}
